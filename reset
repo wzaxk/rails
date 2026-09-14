@@ -1,0 +1,7 @@
+if isfolder("Moondiety") then
+    delfolder("Moondiety")
+    print("Delete file Done!")
+end
+
+task.wait(1)
+loadstring(game:HttpGet("https://moondiety.com/loader"))()
